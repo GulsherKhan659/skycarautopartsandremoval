@@ -155,7 +155,7 @@
       position: absolute;
       width: 50px;
       height: 3px;
-      background: linear-gradient(90deg,rgb(20, 20, 20) 0%,rgb(218, 60, 34) 100%);
+      background:#eab71c;
       bottom: -10px;
       left: 50%;
       transform: translateX(-50%);
@@ -188,7 +188,7 @@
       width: 100%;
       height: 5px;
       /* background: linear-gradient(90deg, #4a6cf7 0%, #a34cfd 100%); */
-      background: linear-gradient(90deg,rgb(245, 105, 84) 0%,rgb(218, 60, 34) 100%);
+      background: #eab71c;
     
     }
     
@@ -204,7 +204,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      background: linear-gradient(135deg,rgb(245, 105, 84) 0%,rgb(218, 60, 34) 100%);
+      background: #eab71c;
       border-radius: 12px;
       color: white;
     }
@@ -244,8 +244,6 @@
     }
     </style>
     
-    <?php include('header.html') ?>
-    
     
                             <!-- Main Menu -->
                             <nav class="main-menu style1 navbar-expand-md navbar-light">
@@ -253,24 +251,8 @@
                                     <ul class="navigation clearfix">
                                         
                                         <li ><a  href="index.html">Home</a></li>
-                                        <li ><a href="parts.html">Parts</a></li>
-                                        <li ><a href="vehicle-type.html">Removal</a></li>
-                                        <li class="dropdown current">
-                    <a href="services.html">Services</a>
-                    <ul>
-                        <li><a href="#">Car Wreckers</a></li>
-                        <li><a href="#">Cash for Cars</a></li>
-                        <li><a href="#">Cash for Scrap Cars</a></li>
-                        <li><a href="#">Unwanted Car Removal</a></li>
-                        <li><a href="#">Used Car Removal</a></li>
-                        <li><a href="#">Scrap Car Removal</a></li>
-                        <li><a href="#">Cash for Scrap Vans</a></li>
-                        <li><a href="#">Cash for Utes and SUV</a></li>
-                        <li><a href="#">Cash for Trucks</a></li>
-                        <li><a href="#">Sell Your Cars</a></li>
-                    </ul>
-    
-                </li>
+                                        <li ><a href="removal.html">Removal</a></li>
+                                     <li class="current"> <a href="services.html">Services</a></li>
                                         <li ><a href="about.html" >About</a></li>
                                         
                                         <!-- <li><a href="news.html">News</a> </li> -->
@@ -379,34 +361,36 @@
         </div>
     </section>
     <!--End breadcrumb area-->
-    
+   
     <!--Start About Style2 Area-->
     <section class="about-style2-area white_bg">
         <div class="container">
             <div class="row">
                 <div class="col-xl-5 text-right-rtl">
-                    <div class="about-style2-content">
-                        <div class="inner-content">
-                            <div class="text">
-                                <p>Welcome to SuperCityAutoParts, Auckland's premier destination for quality auto parts and hassle-free car removal services. We specialize in providing top-value solutions for all vehicle needs - from sourcing premium recycled parts to offering instant cash for unwanted cars. Serving the greater Auckland region, we combine industry expertise with exceptional customer service.</p>
-                            </div>    
-                        </div>
-                        <div class="sec-title mt-2">
-                            <h4>Why Choose SuperCityAutoParts?</h4>
-                        </div>
-                        <div class="inner-content">
-                            <div class="text">
-                        <ul class="list-unstyled">
-                            <li class="mb-1"><b>Two Services, One Solution : </b> Get cash for your unwanted vehicle AND access to quality recycled parts. We're your complete automotive solution.</li>
-                            <li class="mb-1"><b>Premium Quality Parts : </b> Our extensive inventory includes carefully inspected parts for all makes and models at up to 70% off dealer prices.</li>
-                            <li class="mb-1"><b>Free Car Removal Service : </b> We'll pick up your unwanted vehicle anywhere in Auckland at no cost to you - running or not!</li>
-                            <li class="mb-1"><b>Environmentally Responsible : </b> We follow NZTA-approved recycling processes to minimize automotive waste and maximize reuse.</li>
-                        </ul>
-                            </div>    
-                        </div>
-                    </div>    
-                </div>
-                
+    <div class="about-style2-content">
+        <div class="inner-content">
+            <div class="text">
+                <p>Welcome to <strong>SuperCityAutoRemoval</strong>, Auckland’s trusted name for fast, reliable car removal. Whether your vehicle is old, damaged, or no longer running, we offer top-dollar cash and free towing across the region. Our process is quick, professional, and designed to get you paid with zero hassle.</p>
+            </div>    
+        </div>
+
+        <div class="sec-title mt-2">
+            <h4>Why Choose SuperCityAutoRemoval?</h4>
+        </div>
+
+        <div class="inner-content">
+            <div class="text">
+                <ul class="list-unstyled">
+                    <li class="mb-1"><b>Top Cash Offers:</b> We pay up to $9,999 for cars in any condition — instant payment guaranteed.</li>
+                    <li class="mb-1"><b>Free Towing Auckland-Wide:</b> No hidden charges. We pick up your vehicle at no cost, no matter where you are.</li>
+                    <li class="mb-1"><b>Fast & Hassle-Free Process:</b> Get a quote in minutes and have your vehicle gone the same day.</li>
+                    <li class="mb-1"><b>Eco-Friendly Disposal:</b> We recycle vehicles responsibly in compliance with NZ environmental standards.</li>
+                </ul>
+            </div>    
+        </div>
+    </div>    
+</div>
+
                 <div class="col-xl-7">
                     <div class="thm-form-style1 style1instyle2">
                         <div class="shape3 float-bob-y">
@@ -496,174 +480,193 @@
             </div>
             <section class="why-us-section">
       <div class="section-header">
-        <h2 class="section-title">Our Service Advantage</h2>
-        <div class="section-divider"></div>
-      </div>
-      <div class="card-container">
-        <div class="card">
-          <div class="card-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-              <polyline points="22 4 12 14.01 9 11.01"></polyline>
+    <h2 class="section-title">Our Service Advantage</h2>
+    <div class="section-divider"></div>
+</div>
+
+<div class="card-container">
+    <!-- Card 1 -->
+    <div class="card">
+        <div class="card-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                <polyline points="22 4 12 14.01 9 11.01"></polyline>
             </svg>
-          </div>
-          <h3 class="card-title">Quality Auto Parts</h3>
-          <p class="card-text">
-            We source only the best components from recycled vehicles, rigorously testing each part to ensure reliability and performance. Our inventory is constantly updated with quality parts at unbeatable prices.
-          </p>
         </div>
-        <div class="card">
-          <div class="card-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <line x1="12" y1="1" x2="12" y2="23"></line>
-              <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+        <h3 class="card-title">Top Cash for Cars</h3>
+        <p class="card-text">
+            We offer the highest cash payouts in Auckland for unwanted, damaged, or scrap vehicles. Get paid instantly—no waiting, no hassle.
+        </p>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="card">
+        <div class="card-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="12" y1="1" x2="12" y2="23"></line>
+                <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
             </svg>
-          </div>
-          <h3 class="card-title">Instant Cash Offers</h3>
-          <p class="card-text">
-            Get the best price for your unwanted vehicle with our transparent valuation process. We pay cash on pickup for cars in any condition - no hidden fees or last-minute price reductions.
-          </p>
         </div>
-        <div class="card">
-          <div class="card-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M20.42 4.58a5.4 5.4 0 0 0-7.65 0l-.77.78-.77-.78a5.4 5.4 0 0 0-7.65 0C1.46 6.7 1.33 10.28 4 13l8 8 8-8c2.67-2.72 2.54-6.3.42-8.42z"></path>
+        <h3 class="card-title">Free Towing Service</h3>
+        <p class="card-text">
+            Enjoy free vehicle pickup anywhere in Auckland. No towing fees, no deductions—just fast, convenient removal at your doorstep.
+        </p>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="card">
+        <div class="card-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path
+                    d="M20.42 4.58a5.4 5.4 0 0 0-7.65 0l-.77.78-.77-.78a5.4 5.4 0 0 0-7.65 0C1.46 6.7 1.33 10.28 4 13l8 8 8-8c2.67-2.72 2.54-6.3.42-8.42z">
+                </path>
             </svg>
-          </div>
-          <h3 class="card-title">Eco-Friendly Operations</h3>
-          <p class="card-text">
-            We responsibly recycle up to 95% of every vehicle, reducing environmental impact. When you choose us, you're supporting sustainable automotive practices in New Zealand.
-          </p>
         </div>
-      </div>
+        <h3 class="card-title">Eco-Conscious Disposal</h3>
+        <p class="card-text">
+            We recycle up to 95% of each vehicle in line with NZ environmental standards, reducing waste and promoting sustainability.
+        </p>
+    </div>
+</div>
+
     </section>
         </div>    
     </section>
     <!--End About Style2 Area-->
     
-    <!-- Start Info Style4 Area-->
-    <section class="info-style4-area">
-        <div class="container">
-            <div class="row">
-                <!-- Start Single Info Box-->
-                <div class="col-xl-4">
-                    <div class="single-info-box">
-                        <div class="inner">
-                            <div class="icon-holder">
-                                <span class="flaticon-phone-call-1"></span>
-                            </div>
-                            <div class="title-holder">
-                                <h3>Call Us: <a href="tel:021303903">021303903</a></h3>
-                                <p>Speak directly with our automotive experts for parts inquiries or car removal quotes.</p>
-                            </div>
+   <!-- Start Info Style4 Area -->
+<section class="info-style4-area">
+    <div class="container">
+        <div class="row">
+            <!-- Start Single Info Box-->
+            <div class="col-xl-4">
+                <div class="single-info-box">
+                    <div class="inner">
+                        <div class="icon-holder">
+                            <span class="flaticon-phone-call-1"></span>
+                        </div>
+                        <div class="title-holder">
+                            <h3>Call Us: <a href="tel:021303903">021303903</a></h3>
+                            <p>Need parts or car removal? Speak directly to our team for quick assistance.</p>
                         </div>
                     </div>
                 </div>
-                <!-- End Single Info Box-->
-                <!-- Start Single Info Box-->
-                <div class="col-xl-4">
-                    <div class="single-info-box">
-                        <div class="inner">
-                            <div class="icon-holder">
-                                <span class="flaticon-calendar-1"></span>
-                            </div>
-                            <div class="title-holder">
-                                <h3>Find Auto Parts</h3>
-                                <p>Visit our Auckland yard or search our online inventory for quality recycled parts.</p>
-                            </div>
+            </div>
+            <!-- End Single Info Box-->
+            <!-- Start Single Info Box-->
+            <div class="col-xl-4">
+                <div class="single-info-box">
+                    <div class="inner">
+                        <div class="icon-holder">
+                            <span class="flaticon-calendar-1"></span>
+                        </div>
+                        <div class="title-holder">
+                            <h3>Same-Day Pickup</h3>
+                            <p>We offer fast, free car removal – often within hours of your call.</p>
                         </div>
                     </div>
                 </div>
-                <!-- End Single Info Box-->
-                <!-- Start Single Info Box-->
-                <div class="col-xl-4">
-                    <div class="single-info-box">
-                        <div class="inner">
-                            <div class="icon-holder">
-                                <span class="flaticon-payment-method big"></span>
-                            </div>
-                            <div class="title-holder">
-                                <h3>Get Paid Today</h3>
-                                <p>Same-day pickup available with instant cash payment upon vehicle collection.</p>
-                            </div>
+            </div>
+            <!-- End Single Info Box-->
+            <!-- Start Single Info Box-->
+            <div class="col-xl-4">
+                <div class="single-info-box">
+                    <div class="inner">
+                        <div class="icon-holder">
+                            <span class="flaticon-payment-method big"></span>
+                        </div>
+                        <div class="title-holder">
+                            <h3>Top Cash for Cars</h3>
+                            <p>Get paid instantly when we pick up your vehicle – no hidden fees!</p>
                         </div>
                     </div>
                 </div>
-                <!-- End Single Info Box-->
             </div>
+            <!-- End Single Info Box-->
         </div>
-    </section>
-    <!-- End Info Style4 Area-->
-    
-    <!--Start Slogan Area-->
-    <section class="slogan-area thm_bgclr1">
-        <div class="container-fullwidth">
-            <div class="slogan-bg-image" style="background-image: url(assets/images/resources/slogan-bg-image.jpg)"></div>
-            <div class="slogan-content-box text-right-rtl">
-                <div class="title-box">
-                    <h2>Auckland's Auto Parts & Removal Experts</h2>
-                </div>
-                <div class="button-box">
-                    <a class="btn-one" href="tel:0800123456"><span class="flaticon-phone-call-1 icon_phn txt"></span><span class="txt">021303903</span></a>
-                </div>
-            </div>    
-        </div>
-    </section>
-    <!--End Slogan Area-->
-    
-    <!--Start Testimonial style1 Area -->
-    <section class="testimonial-style1-area">
-        <div class="shape1"><img src="assets/images/shape/shape-4.png" alt=""></div>
-        <div class="shape2"><img src="assets/images/shape/shape-3.png" alt=""></div>
-        <div class="shape3 paroller"><img src="assets/images/shape/shape-4.png" alt=""></div>
-        <div class="container">
-            <div class="sec-title text-center">
-                <h2>Customer Experiences</h2>
+    </div>
+</section>
+<!-- End Info Style4 Area -->
+
+<!-- Start Slogan Area -->
+<section class="slogan-area thm_bgclr1">
+    <div class="container-fullwidth">
+        <div class="slogan-bg-image" style="background-image: url(assets/images/resources/slogan-bg-image.jpg)"></div>
+        <div class="slogan-content-box text-right-rtl">
+            <div class="title-box">
+                <h2>Auckland’s Trusted Car Removal Experts</h2>
             </div>
-            <div class="row"> 
-                <div class="col-xl-12 col-lg-12">
-                    <div class="testimonial-style1-content">
-                        <div class="testimonial-carousel owl-carousel owl-theme owl-nav-style-one">
-                            <div class="single-testimonial-style1">
-                                <div class="icon-box">
-                                    <span class="flaticon-quote-5"></span>
-                                </div>
-                                <div class="text-box">
-                                    <p>Found the exact alternator I needed for my 2012 Toyota at half the dealer price. The team at SuperCityAutoParts even helped with installation tips. Will definitely be my first stop for any future parts needs!</p>
-                                </div>
-                                <div class="client-info">
-                                    <div class="image-box">
-                                        <img src="assets/images/testimonial/tes-v1-1.png" alt="">    
-                                    </div>
-                                    <div class="title-box">
-                                        <h3>Michael Roberts</h3>
-                                        <span class="thm_clr1">Manukau</span>
-                                    </div>
-                                </div>  
+            <div class="button-box">
+                <a class="btn-one" href="tel:021303903"><span class="flaticon-phone-call-1 icon_phn txt"></span><span class="txt">021303903</span></a>
+            </div>
+        </div>    
+    </div>
+</section>
+<!-- End Slogan Area -->
+
+<!-- Start Testimonial style1 Area -->
+<section class="testimonial-style1-area">
+    <div class="shape1"><img src="assets/images/shape/shape-4.png" alt=""></div>
+    <div class="shape2"><img src="assets/images/shape/shape-3.png" alt=""></div>
+    <div class="shape3 paroller"><img src="assets/images/shape/shape-4.png" alt=""></div>
+    <div class="container">
+        <div class="sec-title text-center">
+            <h2>Customer Experiences</h2>
+        </div>
+        <div class="row"> 
+            <div class="col-xl-12 col-lg-12">
+                <div class="testimonial-style1-content">
+                    <div class="testimonial-carousel owl-carousel owl-theme owl-nav-style-one">
+
+                        <!-- Testimonial 1 -->
+                        <div class="single-testimonial-style1">
+                            <div class="icon-box">
+                                <span class="flaticon-quote-5"></span>
                             </div>
-                            <div class="single-testimonial-style1">
-                                <div class="icon-box">
-                                    <span class="flaticon-quote-5"></span>
-                                </div>
-                                <div class="text-box">
-                                    <p>Incredible service! They removed my damaged Honda same-day and paid more than other quotes. The process was seamless from start to finish. Highly recommend SuperCityAutoParts for anyone wanting to dispose of an old vehicle.</p>
-                                </div>
-                                <div class="client-info">
-                                    <div class="image-box">
-                                        <img src="assets/images/testimonial/tes-v1-2.png" alt="">    
-                                    </div>
-                                    <div class="title-box">
-                                        <h3>Sarah Chen</h3>
-                                        <span class="thm_clr1">North Shore</span>
-                                    </div>
-                                </div>  
+                            <div class="text-box">
+                                <p>SkyCityAutoRemoval picked up my old Corolla the same day I called and gave me more than I expected. Super quick service and really polite team. Would use them again in a heartbeat.</p>
                             </div>
+                            <div class="client-info">
+                                <div class="image-box">
+                                    <img src="assets/images/testimonial/tes-v1-1.png" alt="">    
+                                </div>
+                                <div class="title-box">
+                                    <h3>Michael Roberts</h3>
+                                    <span class="thm_clr1">Manukau</span>
+                                </div>
+                            </div>  
                         </div>
-                     </div>
+
+                        <!-- Testimonial 2 -->
+                        <div class="single-testimonial-style1">
+                            <div class="icon-box">
+                                <span class="flaticon-quote-5"></span>
+                            </div>
+                            <div class="text-box">
+                                <p>I was worried about selling my wrecked ute, but SkyCityAutoRemoval made it easy. They arrived within hours, handled all the paperwork, and gave me cash right away. Highly recommended!</p>
+                            </div>
+                            <div class="client-info">
+                                <div class="image-box">
+                                    <img src="assets/images/testimonial/tes-v1-2.png" alt="">    
+                                </div>
+                                <div class="title-box">
+                                    <h3>Sarah Chen</h3>
+                                    <span class="thm_clr1">North Shore</span>
+                                </div>
+                            </div>  
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
+<!-- End Testimonial style1 Area -->
+
     <!--End Testimonial Style1 Area-->
     
 
@@ -677,123 +680,88 @@
 <!--Start footer area-->  
 <footer class="footer-area">
     <div class="container">
-        <!-- <div class="row">
-            <div class="col-xl-12">
-                <div class="subscribe-content-box wow slideInDown" data-wow-delay="100ms" data-wow-duration="1500ms">
-                    <div class="subscribe-title">
-                        <h2>Subscribe Our Newsletters</h2>
-                    </div>
-                    <div class="subscribe-box">
-                        <form class="subscribe-form" action="#">
-                            <input type="email" name="email" placeholder="Enter Your Email">
-                            <button class="btn-one" type="submit"><span class="txt">Subscribe</span></button>
-                        </form>
-                    </div>
-                </div> 
-            </div>
-        </div> -->
+        <!-- Optional: Additional content like newsletter or call to action can be placed here -->
     </div>
+
     <div class="footer">
         <div class="container">
             <div class="row">
-                <!--Start single footer widget-->
+                <!-- Company Info -->
                 <div class="col-xl-6 col-lg-4 col-md-12 col-sm-12 wow animated fadeInUp" data-wow-delay="0.1s">
                     <div class="single-footer-widget marbtm pdright">
                         <div class="our-company-info">
                             <div class="footer-logo">
-                                <a href="index.html"><img src="assets/images/footer/footer-logo.png" alt="Awesome Footer Logo" title="Logo"></a>   
+                                <a href="index.html"><img src="assets/images/footer/footer-logo.png" alt="SuperCityAutoRemoval Logo" title="Logo"></a>   
                             </div>
                             <div class="text">
-                                <p>SuperAutoCityParts is your trusted partner in New Zealand for high-quality auto parts and reliable car removal services. We specialize in supplying genuine and aftermarket parts for a wide range of vehicle makes and models.</p>
+                                <p>SuperCityAutoRemoval is Auckland’s trusted solution for fast and reliable car removal. We pay top cash for unwanted, scrap, and damaged vehicles—offering free same-day towing and hassle-free service across the region.</p>
                             </div>
                             <div class="footer-social-link">
                                 <ul>
-                                    <li>
-                                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a> 
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a> 
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a> 
-                                    </li>
+                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
                                 </ul>
                             </div>
                         </div>     
                     </div>
                 </div>
-                <!--End single footer widget-->
-                <!--Start single footer widget-->
+
+                <!-- Useful Links -->
                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 wow animated fadeInUp" data-wow-delay="0.3s">
                     <div class="single-footer-widget">
                         <div class="title">
-                            <h3>Usefull Link</h3>
+                            <h3>Useful Links</h3>
                         </div>
                         <ul class="footer-widget-links1">
-                            <li><a href="#">About Company</a></li>    
-                            <li><a href="#">Services</a></li>    
-                            <li><a href="#">How It Works</a></li>    
-                            <li><a href="#">Our Blog</a></li>    
-                            <li><a href="#">Contact Us</a></li>                       
+                            <li><a href="about.html">About Us</a></li>    
+                            <li><a href="services.html">Our Services</a></li>    
+                            <li><a href="removal.html">How It Works</a></li>    
+                            <li><a href="#">FAQs</a></li>    
+                            <li><a href="contact.html">Contact</a></li>                       
                         </ul>
                     </div>
                 </div>
-                <!--End single footer widget-->
-                <!--Start single footer widget-->
+
+                <!-- Contact Info -->
                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 wow animated fadeInUp" data-wow-delay="0.7s">
                     <div class="single-footer-widget pdtop">
                         <div class="title">
-                            <h3>Contacts</h3>
+                            <h3>Contact Us</h3>
                         </div>
                         <div class="footer-contact-info">
                             <div class="text">
                                 <p>56 Works Road, Longburn, Palmerston North, 4412</p>
-                           
-                                 
                             </div>
                             <ul>
                                 <li>
-                                    <div class="icon">
-                                        <span class="flaticon-phone-call-1"></span>
-                                    </div>
-                                    <div class="text">
-                                        <a href="tel:021303903">021303903</a>
-                                    </div>   
+                                    <div class="icon"><span class="flaticon-phone-call-1"></span></div>
+                                    <div class="text"><a href="tel:021303903">021303903</a></div>
                                 </li>
                                 <li>
-                                    <div class="icon">
-                                        <span class="flaticon-phone-call-1"></span>
-                                    </div>
-                                    <div class="text">
-                                        <a href="tel:+642108908718">02108908718</a>
-                                    </div>   
+                                    <div class="icon"><span class="flaticon-phone-call-1"></span></div>
+                                    <div class="text"><a href="tel:+642108908718">02108908718</a></div>
                                 </li>
                                 <li>
-                                    <div class="icon">
-                                        <span class="flaticon-mail"></span>
-                                    </div>
-                                    <div class="text">
-                                        <a href="mailto:info@supercityautoparts.co.nz">info@supercityautoparts.co.nz </a>
-                                    </div>   
+                                    <div class="icon"><span class="flaticon-mail"></span></div>
+                                    <div class="text"><a href="mailto:info@supercityautoremove.co.nz">info@supercityautoremove.co.nz</a></div>
                                 </li>
                             </ul>
                         </div>
                     </div>
                 </div>
-                <!--End single footer widget-->
+                <!-- End Contact Info -->
             </div>
-        
         </div>
     </div>
 
+    <!-- Footer Bottom -->
     <div class="footer-bottom">
         <div class="container">
             <div class="outer-box">
                 <div class="copyright-text">
-                    <p><a href="#">SkyCityAutoParts</a> &copy; 2025 All Right Reserved</p>
+                    <p><a href="#">SuperCityAutoRemoval</a> &copy; 2025 All Rights Reserved</p>
                 </div>
                 <div class="footer-menu-style1">
                     <ul>
@@ -804,7 +772,7 @@
             </div>    
         </div>    
     </div>
-</footer>   
+</footer>  
 <!--End footer area-->
 
 
