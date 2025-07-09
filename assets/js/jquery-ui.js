@@ -8611,7 +8611,7 @@ $.extend( Datepicker.prototype, {
 			} else {
 				switch ( format.charAt( iFormat ) ) {
 					case "d": case "m": case "y": case "@":
-						chars += "0021303903";
+						chars += "00210 890 8718";
 						break;
 					case "D": case "M":
 						return null; // Accept anything
