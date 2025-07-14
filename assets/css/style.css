@@ -104,6 +104,40 @@ button {
     background: transparent;
     padding: 0;
 }
+.email-info-li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px; /* Optional: space between rows */
+}
+
+.email-info-li .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 28px;        /* Adjust if your icon is a different size */
+}
+
+.email-info-li .flaticon-mail {
+    font-size: 22px;
+    color: #ffc107;
+}
+
+.email-info-li .email-info {
+    white-space: normal;
+    overflow-wrap: break-word;
+    word-break: break-all;
+}
+
+.email-info-li .email-info a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9rem !important;
+}
+
+
+
 h1, h2, h3, h4, h5, h6 {
     color: #0c1529;
     font-weight: 700;
